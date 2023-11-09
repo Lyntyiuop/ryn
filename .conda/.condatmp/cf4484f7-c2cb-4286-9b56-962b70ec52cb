@@ -1,0 +1,13 @@
+prefix=d:/FDU/fdu/课/大三上/跨入科学之门 计算机的应用/vscode final pj/.conda/Library
+exec_prefix=d:/FDU/fdu/课/大三上/跨入科学之门 计算机的应用/vscode final pj/.conda/Library
+libdir=d:/FDU/fdu/课/大三上/跨入科学之门 计算机的应用/vscode final pj/.conda/Library/lib
+sharedlibdir=d:/FDU/fdu/课/大三上/跨入科学之门 计算机的应用/vscode final pj/.conda/Library/lib
+includedir=d:/FDU/fdu/课/大三上/跨入科学之门 计算机的应用/vscode final pj/.conda/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
